@@ -1,0 +1,16 @@
+* {
+box-sizing: border-box;
+}
+.test {
+    max-width: 385px;
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.2);
+}
+.container {
+    max-width: 385px;
+}
+.test {
+    margin: 0 auto;
+}
+@import "header";
+@import "content";
+@import "input"

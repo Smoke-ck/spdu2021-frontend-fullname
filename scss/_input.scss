@@ -1,0 +1,38 @@
+.input {
+    &__text {
+        padding: 18px 25px;
+        background-color: #dde1e2;
+        border:1px solid #d4d8d9;
+        overflow: hidden;
+    }
+    &__textarea {
+        width: 335px;
+        padding: 13px;
+        border-radius: 5px;
+        box-shadow: 0 0 5px 5px rgba(0,0,0,0.1)inset;
+        border:1px solid #d4d8d9;
+        outline: none;  
+        overflow-wrap: break-word;
+        letter-spacing:0.2px;
+        font-family:  'Nunito Sans';
+        margin:0; 
+    }
+    &__click {
+        padding: 16px 25px;
+        background-color: #dde1e2;
+    }
+    &__button {
+        width: 335px;
+        padding: 10px;
+        font-family: 'Nunito Sans';
+        font-size:20px;
+        background-color:#2589cc;
+        color: white;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        &:hover {
+            background-color:#2c74cc;
+        }
+    }
+}

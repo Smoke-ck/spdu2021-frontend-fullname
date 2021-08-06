@@ -1,0 +1,57 @@
+.content {
+    &__chat {
+      background-color: #dde1e2;
+      display: flex;
+      justify-content: space-between;
+      padding: 13px 14px;
+      &--reverse {
+          flex-direction: row-reverse;
+          background-color: #d3d7d8;
+          padding: 12px 11px;
+      }
+    }
+    &__chatImg {
+        width:90px;
+        height: 90px;
+        border-radius: 100%;
+        background-color:white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &--avatar {
+            width: 80px;
+            position: absolute;
+            top:50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        &--background {
+            width:85px;
+            height:85px;
+            overflow: hidden;
+            border-radius: 100%;
+            position: relative;
+            background-color:white;
+        }
+    }
+    &__chatDescription {
+        background-color: white;
+        width: 245px;
+        border-radius: 10px;
+        margin-right: 10px;
+        padding: 7px 10px;
+        overflow-wrap: break-word;   
+        &--description {
+            line-height:1.2;
+            letter-spacing: 0.3px;
+            font-family:'Nunito Sans';
+            margin:0;  
+            font-weight: 300;
+        }
+        &--reverse {
+            margin-right:0 ;
+            margin-left: 14px;
+            padding: 7px 11px;
+        }
+    }
+}
